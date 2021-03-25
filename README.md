@@ -26,7 +26,9 @@ Trying to find the MSRE between the projected rating and the actual ought to be 
 
 # Future Goals
 Model - Trying more models, applying grid search, and tuning for the best fit
+
 Recommendation Engine - Creating an engine that can recommend different beers based on ingredients and rating
+
 Feature Development - Exploring other features and how they can be used to improve beers
 
 
