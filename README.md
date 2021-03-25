@@ -10,7 +10,7 @@ Creating beers (or any beverage for that matter) should be informed by what peop
 I figure to use natural language processing to comb through reviews web scraped off of www.BeerAdvocate.com about each of the beers along with their ratings. The idea is for each beer type to return important words when it comes to explaining flavor / taste / ingredients, and for that specific beer to also tie those words to its unique rating. Eventually taking all the words from the reviews and predicting ratings for that specific beer that have that component. 
 
 <p align="center">
- <img width="275" height="400" src=images/rating_dist_donut.png>
+ <img width="600" height="600" src=images/rating_dist_donut.png>
  </p>
 
 I will use various models to predict the rating of a beer with X type of ingredients / flavors (i.e. the projected rating of a beer with “raspberry” & “coffee” words should have a score of 4.75). 
@@ -18,7 +18,7 @@ Imagine a microbrewer who is looking to try new flavors and wants predictive ide
 And create a recommendation engine that will return the best complimentary beers judging from the words and rating (as a reach goal)
 
 <p align="center">
- <img width="275" height="400" src=images/word_cloud_all.png>
+ <img width="900" height="300" src=images/word_cloud_all.png>
  </p>
 
 The data will be stored as a dataframe when dealing with the NLP. I am going to be working with strings and floats. I will have to do a lot of tuning for my NLP to try and get as many of the novel words I need and as many of the superfluous words removed as possible. Depending on the style of beer I pick it can range between 3,000 and 18,000 different beers to look through. Creating a word cloud to quickly make apparent which flavors are favored is a starting point. I would like to also see the correlation between the frequency of a flavor vs its rating, the distribution of beer ratings, and other things that might pop up during EDA.
