@@ -17,9 +17,7 @@ I will use various models to predict the rating of a beer with X type of ingredi
 Imagine a microbrewer who is looking to try new flavors and wants predictive ideas of the results in terms of ratings.
 And create a recommendation engine that will return the best complimentary beers judging from the words and rating (as a reach goal)
 
-<p align="center">
- <img width="900" height="300" src=images/word_cloud_all.png>
- </p>
+
 
 I use random forest (as well as other models) to help get the score I want. This is a classification problem as we are looking for a the ingredients to fit the proper rating. The target variable are the beer ratings, getting our prediction as close to the actual. The goal is to assign weights to the words that would help better generate a good rating.
 
