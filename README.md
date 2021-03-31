@@ -1,5 +1,4 @@
 # Beer_rating_projection
-Taking the ingredients / flavors / descriptions to map what words best match up with the ratings that people attach to a beer.
 
 
 # Business Proposal
@@ -21,9 +20,11 @@ And create a recommendation engine that will return the best complimentary beers
  <img width="900" height="300" src=images/word_cloud_all.png>
  </p>
 
-I use random forest (as well as other models) to help get the score I want. This is a classification problem as we are looking for a the ingredients to fit the proper rating. The target variable are the beer ratings, getting our prediction as close to the actual. The goal is to assign weights to the words that would help better generate a good rating.
+I use random forest, linear regression, and other models to create models that will project these ratings. At first I saw this as a classification problem, looking for a the ingredients to fit the proper rating. But while doing this project I found it made more sense to create a linear model that best represents the outcome of the words, rather than trying to cram some words into ratings they didn't belong because of the context of that particular beers review versus similar beers. The target variable are the beer ratings. The goal is to assign weights to the words that would help better generate a good rating through tf-idf. After culling the most common and least common words, it would leave the most pertient words. Passing them through the models I could track the difference in the training and test sets to make sure my model was not too underfit / overfit.
 
-Moving forward I would like to make the module more flexible for all the different styles of beer and expand the platform of projects to further help prospective new brewers with ideas or data that helps them make business decisions. 
+The results for the linear models ended up being all roughly between 0.4 and 0.5, where the lower the RMSE the better. The values represented here are the ranges that the results can skew within this model from the best result. While a 0.4 is not ideal when aligned with a rating scheme of 1-5, it makes the better point of being able to explain a lot of the beer in a range that makes sense when compared to the rating groupings we saw with the classification part.  
+
+Moving forward I would like to make the module more flexible for all the different styles of beer and expand the platform of projects to further help prospective new brewers with ideas or data that helps them make business decisions. That would include potentially a recommendation system and using more statistical metrics to update the ratings like abv, original gravity, or ibu. Eventually creating a suite of tools for brewers to use data to glean insight into how to produce and market their beers.
 
 
 # Repo Map
