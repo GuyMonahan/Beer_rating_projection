@@ -43,27 +43,50 @@ Moving forward I would like to make the module more flexible for all the differe
  </p>
 
 # Repo Map
-cleaned_notebooks [final material]
+#### cleaned_notebooks [final material]
+
 -Beer_NLP_w_models
+
 -Beer_Web_Scraping
 
-csv_data [The CSV files that house the data]
+
+
+#### csv_data [The CSV files that house the data]
+
 -beer_df
+
 -beer_w_reviews
+
 -reviews
 
-images [png files for my readme]
+
+
+#### images [png files for my readme]
+
 -brewing
+
 -cheers
+
 -distrib_beer_ratings
+
 -freq_beer_ratings
+
 -rating_dist_donut
+
 -word_cloud_all
 
-scrap_notebooks [notebooks where I explored the data before organizing it]
+
+
+#### scrap_notebooks [notebooks where I explored the data before organizing it]
+
 -Beer_EDA
+
 -Brewery_API_setup
+
 -brew_api_key
+
+
+
 
 # Future Goals
 Model - Trying more models, applying grid search, and tuning for the best fit
