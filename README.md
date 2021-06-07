@@ -95,6 +95,8 @@ Recommendation Engine - Creating an engine that can recommend different beers ba
 
 Feature Development - Exploring other features and how they can be used to improve beers
 
+App Development - create a frontend app that can find the rating for a specific beer
+
 
 # Presentation
 https://docs.google.com/presentation/d/16cfUsYOI6Sp7UfBFastVWQZUyj3ACCpGpOzJpi6DWTM/edit?usp=sharing
